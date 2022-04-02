@@ -1,0 +1,10 @@
+{
+  "name": "files-781227",
+  "version": "1.0.0",
+  "scripts": {
+    "git:lfs" : "git lfs track \"*.mp3\"",
+    "git:push": "git add . && git commit -am \"Yet another commit\" && git push origin main",
+    "surge:deploy": "surge public https://781227.surge.sh/",
+    "surge:teardown": "surge teardown https://781227.surge.sh/"
+  }
+}
